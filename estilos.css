@@ -1,0 +1,258 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff9f7;
+    color: #59413e;
+}
+
+/* ENCABEZADO */
+
+header {
+    background: #ffffff;
+    padding: 20px 7%;
+    box-shadow: 0 2px 8px #e8d4d0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar h2 {
+    color: #d87979;
+}
+
+nav a {
+    text-decoration: none;
+    color: #684c49;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* PORTADA */
+
+.portada {
+    background: #f4b6ae;
+    text-align: center;
+    padding: 90px 20px;
+    color: #663f3b;
+}
+
+.portada h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.portada p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* BOTONES */
+
+.boton {
+    display: inline-block;
+    background: #d87979;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: #bd6265;
+}
+
+/* PRODUCTOS */
+
+.productos {
+    padding: 60px 7%;
+    text-align: center;
+}
+
+.productos h2 {
+    color: #c76e70;
+    font-size: 30px;
+}
+
+.descripcion {
+    margin: 12px 0 30px;
+    color: #846d68;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.producto {
+    background: white;
+    width: 245px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 3px 12px #ead8d3;
+}
+
+.producto img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.producto h3 {
+    color: #c76e70;
+    margin: 15px 8px 8px;
+}
+
+.producto p {
+    padding: 0 12px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.producto strong {
+    color: #b85f62;
+    font-size: 19px;
+}
+
+/* FRASE */
+
+.frase {
+    background: #fce4df;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.frase h2 {
+    color: #bd7070;
+    margin-bottom: 12px;
+}
+
+/* SEGUNDA PAGINA */
+
+.titulo {
+    background: #f4b6ae;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    color: #663f3b;
+    margin-bottom: 10px;
+}
+
+.como-pedir {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 55px 7%;
+}
+
+.paso {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 260px;
+    box-shadow: 0 3px 10px #ead8d3;
+}
+
+.paso span {
+    color: #d87979;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.paso h3 {
+    color: #bd7070;
+    margin: 12px 0;
+}
+
+.paso p {
+    line-height: 1.6;
+}
+
+/* PAGOS */
+
+.informacion {
+    background: #fce4df;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.informacion h2 {
+    color: #bd7070;
+    margin-bottom: 18px;
+}
+
+.informacion p {
+    margin: 10px;
+}
+
+/* CONTACTO */
+
+.contacto {
+    text-align: center;
+    padding: 55px 20px;
+}
+
+.contacto h2 {
+    color: #bd7070;
+    margin-bottom: 15px;
+}
+
+.contacto p {
+    margin: 10px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background: #bd7775;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CELULARES */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .portada h1 {
+        font-size: 29px;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    .producto {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .paso {
+        width: 100%;
+    }
+}
+
